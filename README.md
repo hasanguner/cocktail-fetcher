@@ -1,8 +1,8 @@
 <div style="display:block;width:100%">
-<img style="width:75%;" src="https://i.imgur.com/4Bd9ckJ.jpg">
+<img style="width:50%;" src="https://i.imgur.com/4Bd9ckJ.jpg">
 </div>
 
-#Cocktail Fetcher
+# Cocktail Fetcher
 
 Scraping all the cocktails, ingredients, instructions etc. from `https://www.thecocktaildb.com/`.
 

@@ -1,6 +1,3 @@
-<div style="display:block;width:100%">
-<img style="width:50%;" src="https://i.imgur.com/4Bd9ckJ.jpg">
-</div>
 
 # Cocktail Fetcher
 

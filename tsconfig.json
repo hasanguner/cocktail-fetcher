@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext"
+    ],
+    "outDir": "build"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.spec.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

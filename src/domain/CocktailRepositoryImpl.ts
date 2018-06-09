@@ -33,10 +33,10 @@ export class CocktailRepositoryImpl implements CocktailRepository {
     }
 
     count(): number {
-        return this.cocktails.length
+        return this.cocktails.length;
     }
 
-    public async load() {
+    async load() {
         const json = await this.fileManager.read(CocktailRepositoryImpl.REPOSITORY_FILE);
         this.cocktails = JSON.parse(json);
         console.log(`[${this.cocktails.length}] cocktails loaded.`);

@@ -1,5 +1,5 @@
 export enum AlcoholType {
     ALCOHOLIC = "ALCOHOLIC",
     NONALCOHOLIC = "NONALCOHOLIC",
-    OPTIONAL = "OPTIONAL"
+    OPTIONAL = "OPTIONAL",
 }

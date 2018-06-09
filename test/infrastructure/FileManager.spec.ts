@@ -1,5 +1,5 @@
 import * as chai from "chai";
-import "mocha"
+import "mocha";
 import {FileManagerImpl} from "../../src/infrastructure/FileManagerImpl";
 import {FileManager} from "../../src/domain/FileManager";
 

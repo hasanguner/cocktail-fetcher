@@ -1,4 +1,4 @@
 export interface CocktailIngredient {
-    name: string,
-    measure: string
+    name: string;
+    measure: string;
 }

@@ -2,12 +2,11 @@ import {Cocktail} from "./Cocktail";
 
 export interface CocktailRepository {
 
-    save(cocktails: Cocktail[]): Promise<void>
+    save(cocktails: Cocktail[]): Promise<void>;
 
-    update(cocktail: Cocktail): Promise<void>
+    update(cocktail: Cocktail): Promise<void>;
 
-    findAll(): Promise<Cocktail[]>
+    findAll(): Promise<Cocktail[]>;
 
-    count(): number
-
+    count(): number;
 }

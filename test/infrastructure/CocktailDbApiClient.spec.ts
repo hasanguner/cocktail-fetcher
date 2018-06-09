@@ -1,5 +1,5 @@
 import * as chai from "chai";
-import "mocha"
+import "mocha";
 import {CocktailDbApiClient} from "../../src/infrastructure/CocktailApiClient";
 
 chai.should();
@@ -27,7 +27,7 @@ describe("CocktailDbApiClient", async () => {
             it("should return related cocktails", async () => {
                 const cocktails = await client.filterCocktails(ingredient);
                 console.log(`Ingredient : ${ingredient} - [${cocktails.length}] cocktails found.`);
-                cocktails.should.not.be.empty
+                cocktails.should.not.be.empty;
             });
         }));
 

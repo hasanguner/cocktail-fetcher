@@ -36,7 +36,7 @@ export class CocktailDbApiClient {
         const options = {uri: uri};
         const response = await request.get(options);
         // console.log(`Response : ${response}`);
-        return JSON.parse(response) as T
+        return JSON.parse(response) as T;
     }
 
 }
